@@ -30,6 +30,11 @@ li:hover .fa-trash{
   -webkit-transition: opacity 0.5s linear;
 }
 
+li:hover {
+  background-color: #AAAAAA;
+  -webkit-transition: background-color 0.5s ;
+}
+
 li .fa-bars {
   margin-right: 10px;
   cursor: move;
