@@ -12,18 +12,21 @@ When a song is hovered, animate its background color to a lighter grey over 0.5s
  
     $(this).parent().slideUp(500, function() {
       $(this).remove();  //call is on $(this) because the parent "LI" is the object passed to remove() already.
-      });
     });
+  });
  
-    $('ul li div').hide();
-    $('li').dblclick(function(){
-      $(this).find('div').slideDown(300);
-    });
+  $('ul li div').hide();
+  $('li').dblclick(function(){
+    $(this).find('div').slideDown(300);
+  });
 
-    $('#message').fadeIn(800, function(){
-      setTimeout(function(){
-        $('#message').fadeOut(800);
-      }, 3000);
-    });
+  $('#message').fadeIn(800, function(){
+    setTimeout(function(){
+      $('#message').fadeOut(800);
+    }, 3000);
+  });
+
+  //$('.fa-trash').css('opacity', '0.3');
+
 
 });

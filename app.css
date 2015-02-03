@@ -25,6 +25,11 @@ li {
   cursor: pointer;
 }
 
+li:hover .fa-trash{
+  opacity: 1;
+  -webkit-transition: opacity 0.5s linear;
+}
+
 li .fa-bars {
   margin-right: 10px;
   cursor: move;
@@ -35,6 +40,7 @@ li .fa-trash {
   cursor: pointer;
   position: relative;
   top: 2px;
+  opacity: 0.3;
 }
 
 li .notes {
