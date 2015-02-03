@@ -15,7 +15,10 @@ When a song is hovered, animate its background color to a lighter grey over 0.5s
       });
   });
  
-  
+    $('ul li div').hide();
+    $('li').dblclick(function(){
+      $(this).find('div').slideDown(300);
+    });
 
 
 });
