@@ -18,6 +18,8 @@ var addSongToLibrary = function(title, notes) {
                                 "<span class='title'>" + title + "</span>" +
                                 "<div class='notes'>" + notes + "</div>" +
                               "</li>");
+  
+  
 };
 
 
